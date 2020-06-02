@@ -1,3 +1,4 @@
+import 'core-js';
 import { compress } from './lib/state';
 import queryString from 'query-string';
 

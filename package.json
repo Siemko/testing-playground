@@ -23,6 +23,7 @@
   "dependencies": {
     "@babel/runtime-corejs3": "^7.10.2",
     "codemirror": "5.54.0",
+    "core-js": "^3.6.5",
     "dom-accessibility-api": "^0.4.4",
     "js-beautify": "^1.11.0",
     "lodash.debounce": "4.0.8",
