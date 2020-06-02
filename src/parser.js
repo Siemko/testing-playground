@@ -8,13 +8,18 @@ import cssPath from './lib/cssPath';
 // It works when running parcel in dev mode, but not in build mode. Seems to
 // have something to do with a core-js Map polyfill being used?
 // It's now loaded from unpkg.com via ./index.html
-//import { getQueriesForElement, queries, logDOM } from '@testing-library/dom';
-const {
+import {
   getQueriesForElement,
   queries,
-  getRoles,
   logDOM,
-} = window.TestingLibraryDom;
+  getRoles,
+} from '@testing-library/dom';
+// const {
+//   getQueriesForElement,
+//   queries,
+//   getRoles,
+//   logDOM,
+// } = window.TestingLibraryDom;
 
 const debug = (element, maxLength, options) =>
   Array.isArray(element)
