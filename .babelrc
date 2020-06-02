@@ -1,13 +1,7 @@
 {
+  "plugins": ["@babel/plugin-transform-runtime"],
   "presets": [
     "@babel/preset-react",
-    [
-      "@babel/preset-env",
-      {
-        "useBuiltIns": "entry",
-        "targets": "> 0.25%, not dead"
-      }
-    ]
-  ],
-  "ignore": ["node_modules"]
+    "@babel/preset-env"
+  ]
 }

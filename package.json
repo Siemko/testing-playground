@@ -21,6 +21,7 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@babel/runtime": "^7.10.2",
     "codemirror": "5.54.0",
     "dom-accessibility-api": "^0.4.4",
     "js-beautify": "^1.11.0",
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "@testing-library/dom": "^7.8.0",
