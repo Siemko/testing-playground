@@ -1,8 +1,6 @@
 {
   "presets": ["@babel/preset-react",["@babel/preset-env", {
-    "useBuiltIns": "usage",
-    "corejs": 3,
     "targets": "> 0.25%, not dead"
   }]],
-  "ignore": ["@testing-library/dom"]
+  "ignore": ["node_modules"]
 }
